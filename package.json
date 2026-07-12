@@ -4,7 +4,11 @@
   "description": "a textile manufacturer's website that adds new fabrics received in the packaging department # Dependencies - typescript     - typescript     - ts-node - @types/node - @types/express - express - nodemon - jsonwebtoken - mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "watch-build": "tsc",
+    "watch-start": "nodemon ./dist/app.js"
   },
   "repository": {
     "type": "git",
