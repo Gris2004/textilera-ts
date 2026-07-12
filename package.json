@@ -1,0 +1,33 @@
+{
+  "name": "textilera-ts",
+  "version": "1.0.0",
+  "description": "a textile manufacturer's website that adds new fabrics received in the packaging department # Dependencies - typescript     - typescript     - ts-node - @types/node - @types/express - express - nodemon - jsonwebtoken - mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gris2004/textilera-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gris2004/textilera-ts/issues"
+  },
+  "homepage": "https://github.com/Gris2004/textilera-ts#readme",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "@types/nodemon": "^3.1.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
