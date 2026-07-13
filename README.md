@@ -27,3 +27,10 @@ a textile manufacturer's website that adds new fabrics received in the packaging
 # DataBase
 use mongodb
 client: mongosh and API
+
+# NPM Scripts
+- first use npm install
+- watch-build: rebuild the project when you modify a file or create a new folder or file
+- watch-start: use nodemon to start dist/app.js, when there is a rebuild, the main file run again
+- build: use tsc to make a build of src to dist
+- start: use node to start the main file
