@@ -55,4 +55,14 @@ export default class FabricService{
             throw e;
         }
     }
+
+    async deleteFabric(id: string): Promise<FabricInterface | null> {
+        try{
+            return await FabricModel.findByIdAndDelete(id).lean();
+        } catch (e: unknown) {
+            if(e instanceof Error)
+                console.error(e.message);
+            throw e;
+        }
+    }
 }

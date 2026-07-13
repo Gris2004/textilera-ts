@@ -6,6 +6,7 @@ a textile manufacturer's website that adds new fabrics received in the packaging
     - ts-node
 - @types/node
 - @types/express
+- @types/nodemon
 - express
 - nodemon
 - jsonwebtoken
@@ -15,14 +16,24 @@ a textile manufacturer's website that adds new fabrics received in the packaging
 - show all fabrics
 - show fabric by id and name
 - edit a record by id
+- create a new fabric
 - delete record with a confirmation message
+- create users
+- validate user
+- login
+- routes with jwt
 
-# Fabric Model
+# Models
+## Fabric Model
 - fabric id: number
 - fabric name: string
 - fabric color: string
 - fabric quality: string
 - fabric entry date: string
+
+## User Model
+- user name: string
+- user password: string
 
 # DataBase
 use mongodb
