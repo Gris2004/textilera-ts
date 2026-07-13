@@ -8,7 +8,9 @@ X- crear archivo de configuración para mongodb
 
 - create service
     - fabricService
-        - obtener todas las telas
+        X- obtener todas las telas
+        x- función para crear registro
+        x- función para crear registros
         - obtener tela por id y nombre
         - editar un registro por id
         - eliminar un registro por id

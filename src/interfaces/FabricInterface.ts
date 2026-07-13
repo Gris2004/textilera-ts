@@ -1,4 +1,4 @@
-export interface Fabric{
+export interface FabricInterface{
     fabric_name: string,
     fabric_color: string,
     fabric_quality: string,
