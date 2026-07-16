@@ -3,11 +3,11 @@ X- crear interfaz de datos
 X- crear esquema de datos para mongodb
 X- crear modelo de datos para mongodb
 
-- crear interfaz de usuario
-    - nombre
-    - contraseña
+X- crear interfaz de usuario
+    X- nombre
+    X- contraseña
 
-- crear modelo y esquema de usuario
+X- crear modelo y esquema de usuario
 
 X- crear archivo de configuración para mongodb
 
