@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a textile manufacturer's website that adds new fabrics received in the packaging department # Dependencies - typescript     - typescript     - ts-node - @types/node - @types/express - express - nodemon - jsonwebtoken - mongoose",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -32,6 +33,7 @@
     "typescript": "^7.0.2"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
     "nodemon": "^3.1.14"
   }
 }

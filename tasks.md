@@ -11,7 +11,7 @@ X- crear modelo y esquema de usuario
 
 X- crear archivo de configuración para mongodb
 
-- create service
+X- create service
     X- fabricService
         X- obtener todas las telas
         x- función para crear registro
@@ -20,18 +20,23 @@ X- crear archivo de configuración para mongodb
         X- editar un registro por id
         X- eliminar un registro por id
     
-    - userService
-        - crear usuario
-        - validar usuario
+    X- userService
+        X- crear usuario
+        X- validar usuario
 
-- crear controlador
-    - obtener todas las telas
-    - obtener tela por id y nombre
-    - crear tela
-    - editar un registro por id
-    - eliminar un registro por id1
-    - crear usuario
-    - validar usuario con jwt
+X- crear controlador
+    X- Telas
+        X- obtener todas las telas
+        X- obtener tela por id y nombre
+        X- crear tela
+        X- editar un registro por id
+        X- eliminar un registro por id1
+        X- crear usuario
+        X- validar usuario con jwt
+
+    X- Usuarios
+        X- Crear usuario
+        X- Validar usuario
 
 - crear rutas
     - obtener todas las telas

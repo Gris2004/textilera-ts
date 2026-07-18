@@ -2,7 +2,7 @@ import { FabricModel } from '../models/FabricModel.js'
 import { FabricInterface } from '../interfaces/FabricInterface.js'
 
 export default class FabricService{
-    async getAllFabrics(): Promise<FabricInterface[]>{
+    async getAllFabrics(): Promise<FabricInterface[] | null>{
         try{
             const allFabrics: FabricInterface[] = await FabricModel.find().lean();
             return allFabrics;
@@ -29,7 +29,7 @@ export default class FabricService{
         }
     }
 
-    async createFabric(fabricData: FabricInterface): Promise<FabricInterface>{
+    async createFabric(fabricData: FabricInterface): Promise<FabricInterface | null>{
         try{
             return await FabricModel.create(fabricData);
         } catch (e: unknown){
@@ -46,7 +46,7 @@ export default class FabricService{
                 newFabric,
                 {
                     new: true,
-                    runValidaters: true
+                    runValidators: true
                 }
             ).lean();
         } catch (e: unknown) {

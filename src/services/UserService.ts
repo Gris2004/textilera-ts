@@ -13,7 +13,7 @@ export default class UserService{
         }
     }
 
-    async checkUser(userData: UserInterface): Promise<UserInterface | null>{
+    async checkUser(userData: UserInterface): Promise<UserInterface>{
         try{
             //find user by name
             const user = await UserModel.findOne({user_name: userData.user_name});

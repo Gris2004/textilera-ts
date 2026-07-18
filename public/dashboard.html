@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Administrador de Telas</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Administrador de Telas</h1>
+
+    <button id="logout">
+        Cerrar sesión
+    </button>
+
+</header>
+
+<main>
+
+<section>
+
+    <button id="newFabric">
+
+        Nueva Tela
+
+    </button>
+
+</section>
+
+<br>
+
+<table id="fabricTable">
+
+    <thead>
+
+    <tr>
+
+        <th>Nombre</th>
+        <th>Color</th>
+        <th>Calidad</th>
+        <th>Fecha</th>
+        <th>Acciones</th>
+
+    </tr>
+
+    </thead>
+
+    <tbody>
+
+    </tbody>
+
+</table>
+
+</main>
+
+<!-- ================= MODAL ================= -->
+
+<div id="fabricModal" class="modal">
+
+    <div class="modal-content">
+
+        <h2 id="modalTitle">
+
+            Nueva Tela
+
+        </h2>
+
+        <form id="fabricForm">
+
+            <input
+                type="hidden"
+                id="fabricId"
+            >
+
+            <label>
+
+                Nombre
+
+            </label>
+
+            <input
+                type="text"
+                id="fabric_name"
+                required
+            >
+
+            <label>
+
+                Color
+
+            </label>
+
+            <input
+                type="text"
+                id="fabric_color"
+                required
+            >
+
+            <label>
+
+                Calidad
+
+            </label>
+
+            <input
+                type="text"
+                id="fabric_quality"
+                required
+            >
+
+            <label>
+
+                Fecha
+
+            </label>
+
+            <input
+                type="date"
+                id="fabric_entry_date"
+                required
+            >
+
+            <br><br>
+
+            <button type="submit">
+
+                Guardar
+
+            </button>
+
+            <button
+                type="button"
+                id="cancelModal">
+
+                Cancelar
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
